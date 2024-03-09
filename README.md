@@ -14,4 +14,5 @@ function ajaxCall(method, url, data, destination, isHtml) {
     xhttp.open(method, url, false);
     xhttp.setRequestHeader('content-type', 'application/x-www-form-urlencoded');
     xhttp.send(data);
+    hello rut;
 }
