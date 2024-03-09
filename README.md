@@ -6,9 +6,9 @@ function ajaxCall(method, url, data, destination, isHtml) {
         if (this.readyState == 4 && this.status == 200) {
             if (isHtml) {
                 document.getElementById(destination).innerHTML = this.responseText;
-            } else {
+                } else {
                 document.getElementById(destination).value = this.responseText;
-            }
+                }
         }
     };
     xhttp.open(method, url, false);
